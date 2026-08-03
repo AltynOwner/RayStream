@@ -1,5 +1,5 @@
 const connectButton = document.getElementById("connectButton");
 
 connectButton.addEventListener("click", () => {
-    document.getElementById("status").textContent = "Button clicked!";
+    window.open("https://google.com", "_blank");
 });
